@@ -7,7 +7,7 @@ const sumAll = function(start, end) {
         start = end;
         end   = t;
     }
-
+    // Can also use Guass' method
     let sum = 0;
     for (let i = start; i <= end; i++) {
         sum += i;
